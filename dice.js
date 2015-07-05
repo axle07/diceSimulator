@@ -10,23 +10,3 @@ function roll(times) {
 	}
 	return result;
 }
-
-/* TEST RESULTS 
- *
- *
-
-  var arr = [], k = 1000;
- 
-  while(k > 0) { arr.push(roll(2)); k--;  }
- 
- 
-	function count(num) {
-		var count = 0; 
-		for (var i = 0; i < arr.length; i++) { 
-			if(arr[i] == num) count++; 
-		}
-		return count; 
-	}
-
-*
-*/
