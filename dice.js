@@ -2,11 +2,11 @@ function diceVal() {
 	return Math.floor(Math.random() * 6 + 1);
 }
 
-function roll(times) { 
+function roll(numberOfDice) {
 	var result =  0;
-	while(times > 0) {
+	while(numberOfDice > 0) {
 		result += diceVal();
-		times--;
+		numberOfDice--;
 	}
 	return result;
 }
