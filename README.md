@@ -1,1 +1,1 @@
-Simulates rolling n dice, tests included
+Simulates rolling dice, tests included
